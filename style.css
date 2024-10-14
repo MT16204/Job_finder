@@ -1,0 +1,103 @@
+:root {
+    --background: #191919    ;
+    --snd-bg-color: #111;
+    --text-color: #fff;
+    --main-color: #5dade2;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bg-img{
+    position: absolute;
+    margin-left: 25rem;
+    margin-top: 20rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    height: 100%;    
+    width: 100%;
+    filter: blur(2px);
+    
+    opacity: 0.3;
+    z-index: -1; /* Send the background image behind other content */
+}
+
+.home{
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    text-align: center; /* Centers the text inside the element */
+    margin-top: 1rem;
+    color: var(--main-color)
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; /* Add some space above the search bar */
+}
+
+.select-input {
+    margin: 0 1rem; /* Space between dropdowns */
+    padding: 0.5rem; /* Padding inside the dropdowns */
+    border: 1px solid var(--main-color); /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: var(--snd-bg-color); /* Background color for dropdowns */
+    color: var(--text-color); /* Text color */
+    appearance: none; /* Remove default dropdown arrow */
+}
+
+.submit {
+    padding: 0.5rem 1rem; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: var(--main-color); /* Background color */
+    color: var(--text-color); /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    margin-left: 1rem; /* Space between button and last dropdown */
+}
+
+.submit:hover {
+    background-color: #4fa3d7; /* Change button color on hover */
+}
+
+/* Style for the results container */
+#results {
+    margin-top: 2rem;
+    padding: 1rem;
+    color: var(--text-color);
+}
+
+/* Individual job container */
+.job {
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border-radius: 2rem;
+}
+
+/* Job title */
+.job h4 {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}

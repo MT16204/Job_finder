@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script> 
+
+    <title>MT Jobs</title>
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-img">
+        <img src="./assets/background.png" alt="">
+    </div>
+
+    <!-- Home page -->
+    <div class="home">
+        <h3>This site helps beginners find languages, frameworks, and tools that relate to their job career</h3>    
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <select id="search" class="select-input">
+            <option value="" disabled selected>Select a Category</option>
+            <option value="Front-End Development">Front-end Development</option>
+            <option value="Back-End Development">Back-end Development</option>
+            <option value="Full-Stack Development">Full-Stack Development</option>
+            <option value="Mobile Development">Mobile Development</option>
+            <option value="Desktop Development">Desktop Development</option>
+            <option value="Embedded Development">Embedded Development</option>
+            <option value="Database Development">Database Development</option>
+            <option value="Cloud Development">Cloud Development</option>
+            <option value="Security Development">Security Development</option>
+            <option value="Testing and QA">Testing and QA</option>
+            <option value="DevOps Development">DevOps Development</option>
+            <option value="Data Science and Big Data Development">Data Science and Big Data Development</option>
+            <option value="Game Development">Game Development</option>
+            <option value="Graphics Development">Graphics Development</option>
+            <option value="AI Engineering">AI Engineering</option>
+            <option value="#"></option>
+        </select>
+        <button class="submit" id="submit" type="button">Search</button>
+
+    </div>
+
+    <!-- Results Container -->
+    <div id="results">
+        <!-- Job results will be dynamically inserted here -->
+        <div class="job">
+                <h4>Job Title</h4>
+            <div class="Description">
+                <p><strong>Description:</strong> Job description will be here.</p>
+            </div>
+            <div class="Technologies">
+                <p><strong>Technologies:</strong> List of technologies will be here.</p>
+            </div>
+            <div class="Documentation">
+                <p><strong>Documentation:</strong> Relevant documentation links will be here.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
