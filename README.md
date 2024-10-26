@@ -3,7 +3,7 @@ This repository contains the source code for a Job Finder website that helps beg
 You can view the website here: https://mt16024.github.io/Job_finder/
 
 # ScreenShot
-<img width="1261" alt="Screen Shot 2024-10-27 at 02 03 49" src="https://github.com/user-attachments/assets/2921d782-cad5-4aeb-917e-5906bd14211f">
+<img width="1251" alt="Screen Shot 2024-10-27 at 02 03 49" src="https://github.com/user-attachments/assets/d4037033-2112-49c7-a7d1-9a711ae6b79c">
 
 # Technologies Used
 * HTML
