@@ -1,6 +1,6 @@
 # Job Finder
 This repository contains the source code for a Job Finder website that helps beginners find code languages, frameworks, and tools that relate to their job career. 
-You can view the website here: https://mt16024.github.io/Job_finder/
+You can view the website here: https://mt16204.github.io/Job_finder/
 
 # ScreenShot
 <img width="1251" alt="Screen Shot 2024-10-27 at 02 03 49" src="https://github.com/user-attachments/assets/d4037033-2112-49c7-a7d1-9a711ae6b79c">
